@@ -6,6 +6,7 @@ import os
 import re
 
 PROCESSED_DIR = "images/processed"
+OUTPUT_FILE = "ocr_results.txt"
 
 print("Loading EasyOCR model...")
 reader = easyocr.Reader(['en'], gpu=False)
@@ -135,6 +136,12 @@ for filename in files:
     status = f"[{fmt}]" if is_valid else "[? unrecognised format]"
     output = plate_text if plate_text else "(nothing detected)"
     print(f"  {filename:40s}  →  {output:20s}  {status}")
+
+	
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    for filename, plate in results.items():
+        f.write(f"{filename} -> {plate}\n")
+print(f"\nOCR results saved to {OUTPUT_FILE}")
 
 # Summary
 print(f"\n--- Summary ---")

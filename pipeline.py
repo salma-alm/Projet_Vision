@@ -5,6 +5,7 @@ steps = [
     ("Cropping plates from annotations...", "crop.py"),
     ("Preprocessing cropped images...",     "pretraitement.py"),
     ("Running OCR...",                       "ocr.py"),
+    ("Evaluating OCR results...", "evaluate.py"),
 ]
 
 for message, script in steps:
