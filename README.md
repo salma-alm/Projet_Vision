@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-Placer les images dans `images/raw/`, puis :
+Placer les images de la [base de données](https://www.kaggle.com/datasets/tielemarvin/european-license-plate-dataset-elpd?select=COCO) dans `images/raw/`, ou votre propre image coupée dans `images/cropped/`, puis :
 
 ```bash
 python pipeline.py
@@ -36,6 +36,6 @@ annotations/         ← fichier JSON du dataset Kaggle
 
 ## À propos
 
-**Auteurs :** Ataa AHMADOUN & Salma EL ALAMI   
-**Encadrement :** LACHKAR ABDELMOUNAIM   
-**Contexte :** Projet académique - Traitement d'images
+**Auteurs :** Atae AHMADOUN & Salma EL ALAMI   
+**Encadrement :** Abdelmounaim LACHKAR   
+**Contexte :** Projet académique à l'ENSA Tanger - Traitement d'images
