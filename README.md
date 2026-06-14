@@ -36,6 +36,6 @@ annotations/         ← fichier JSON du dataset Kaggle
 
 ## À propos
 
-**Auteurs :** Ataa Ahmadoune & Salma EL ALAMI   
+**Auteurs :** Ataa AHMADOUN & Salma EL ALAMI   
 **Encadrement :** LACHKAR ABDELMOUNAIM   
 **Contexte :** Projet académique - Traitement d'images
