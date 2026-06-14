@@ -33,3 +33,9 @@ images/cropped/      ← généré automatiquement
 images/processed/    ← généré automatiquement
 annotations/         ← fichier JSON du dataset Kaggle
 ```
+
+## À propos
+
+**Auteurs :** [Ataa Ahmadoune] & [Salma EL ALAMI]  
+**Encadrement :** [LACHKAR ABDELMOUNAIM]  
+**Contexte :** Projet académique - Traitement d'images
